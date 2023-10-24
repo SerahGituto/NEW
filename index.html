@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VANILLA WEATHER APP</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/dfa2b7fc3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <input type="search" placeholder="Type city" style="height: 35px; width: 430px; border-radius: 4px;" id="search-input"/>
+       <button id="search-button">Search</button>
+       </form>
+      <div class="top">
+      <h1 id="city">Nairobi</h1>
+       <img src="http://openweathermap.org/img/wn/10d@2x.png"alt="heavy intensity rain"id="icon">
+       </i>
+       <ul>
+         <strong><li id="temperature">28</li></strong><span class="units">℃ </span>
+        <li id="day">Friday <span>13:11</span></li>
+        <li id="description">Clear</li>
+     <li id="wind">Wind:<span id="windspeed">50</span> km/hr</li>
+        
+      </ul>
+      </div>
+    <ul>
+      <li class="one">
+        Monday
+        <br>
+        <br>
+        <div><i class="fa-solid fa-cloud"></i></div>
+      </li>
+      <li class="two">
+        Tuesday
+        <br>
+        <br>
+        <div><i class="fa-regular fa-sun"></i></div>
+      </li>
+
+      <li class="three">
+        Wednesday
+        <br>
+        <br>
+        <div><i class="fa-regular fa-sun"></i></div>
+      </li>
+
+      <li class="four">
+        Thursday
+        <br>
+        <br>
+        <div><i class="fa-solid fa-cloud"></i></div>
+      </li>
+
+     <li class="six">
+        Saturday
+        <br>
+        <br>
+        <div><i class="fa-solid fa-cloud-rain"></i></div>
+      </li>
+
+      <li class="seven">
+        Sunday
+        <br>
+        <br>
+        <div><i class="fa-solid fa-cloud-sun-rain"></i></div>
+      </li>
+    </ul>
+    <script src="src/index.js"></script>
+  </body>
+</html>

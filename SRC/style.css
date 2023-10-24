@@ -1,0 +1,95 @@
+.container {
+  background: #f6f6f8;
+  width: 600px;
+  border: solid 0.3px #000000;
+  border-radius: 4px;
+  padding: 50px;
+}
+.top {
+  border: #ffffff solid 0.2px;
+  border-radius: 20px;
+  margin-right: 460px;
+  background: #c4c1e0;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: -20px;
+}
+li {
+  list-style: none;
+}
+.one {
+  display: inline-block;
+  border: solid 0.2px #ffffff;
+  margin-right: 2px;
+  padding: 14px;
+  margin-left: -35px;
+  background: #fcfefe;
+  height: 66px;
+  border-radius: 15px;
+}
+.two,
+.four,
+.six {
+  display: inline-block;
+  border: solid 0.2px #ffffff;
+  background: #fcfefe;
+  margin-right: 2px;
+  padding: 14px;
+  height: 66px;
+  border-radius: 15px;
+}
+.three {
+  display: inline-block;
+  border: solid 0.2px #ffffff;
+  background: #fcfefe;
+  margin-right: 2px;
+  padding: 12px;
+  height: 66px;
+  border-radius: 15px;
+}
+.seven {
+  display: inline-block;
+  border: solid 0.2px #ffffff;
+  padding: 14px;
+  background: #fcfefe;
+  height: 66px;
+  border-radius: 15px;
+}
+#city {
+  margin-left: 21px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.fa-solid,
+.fa-regular {
+  margin-left: 18px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+}
+#temperature,
+#day,
+#description {
+  margin-left: -15px;
+}
+.units {
+  position: relative;
+  top: -38px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000000;
+}
+#wind {
+  margin-left: -14px;
+}
+#description {
+  text-transform: capitalize;
+}
+img {
+  width: 80px;
+}
+#temperature {
+  font-size: 40px;
+}
