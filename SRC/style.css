@@ -17,54 +17,6 @@
 li {
   list-style: none;
 }
-.one {
-  display: inline-block;
-  border: solid 0.2px #ffffff;
-  margin-right: 2px;
-  padding: 14px;
-  margin-left: -35px;
-  background: #fcfefe;
-  height: 66px;
-  border-radius: 15px;
-}
-.two,
-.four,
-.six {
-  display: inline-block;
-  border: solid 0.2px #ffffff;
-  background: #fcfefe;
-  margin-right: 2px;
-  padding: 14px;
-  height: 66px;
-  border-radius: 15px;
-}
-.three {
-  display: inline-block;
-  border: solid 0.2px #ffffff;
-  background: #fcfefe;
-  margin-right: 2px;
-  padding: 12px;
-  height: 66px;
-  border-radius: 15px;
-}
-.seven {
-  display: inline-block;
-  border: solid 0.2px #ffffff;
-  padding: 14px;
-  background: #fcfefe;
-  height: 66px;
-  border-radius: 15px;
-}
-#city {
-  margin-left: 21px;
-  font-weight: lighter;
-  font-size: 20px;
-}
-.fa-solid,
-.fa-regular {
-  margin-left: 18px;
-}
-
 button {
   padding: 10px;
   border-radius: 4px;
